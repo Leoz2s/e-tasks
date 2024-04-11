@@ -43,7 +43,8 @@ export default createGlobalStyle`
   }
 
   ::-webkit-scrollbar {
-    width: 8px;
+    /* width: 8px; */
+    width: .5rem; // 1rem = 16px // 8px = 16px/2 = 1rem/2 = 0.5 rem
   }
   
   ::-webkit-scrollbar-track {
